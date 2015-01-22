@@ -1,0 +1,26 @@
+<h1> Dealing Poker </h1>
+
+<%
+num1= rand(12)+1
+num2= rand(12)+1
+num3= rand(12)+1
+num4= rand(12)+1
+num5= rand(12)+1
+
+%>
+
+<%
+
+suit1= random.choice (['diamonds','spades', 'hearts', 'clubs' ])
+suit2= random.choice (['diamonds','spades', 'hearts', 'clubs' ])
+suit3= random.choice (['diamonds','spades', 'hearts', 'clubs' ])
+suit4= random.choice (['diamonds','spades', 'hearts', 'clubs' ])
+suit5= random.choice (['diamonds','spades', 'hearts', 'clubs' ])
+
+%>
+
+<img src="http://golearntocode.com/images/cards/<%= num1 %>_of_<%= suit1 %>.png" />
+<img src="http://golearntocode.com/images/cards/<%= num2 %>_of_<%= suit2 %>.png" />
+<img src="http://golearntocode.com/images/cards/<%= num3 %>_of_<%= suit3 %> .png" />
+<img src="http://golearntocode.com/images/cards/<%= num4 %>_of_<%= suit4 %>.png" />
+<img src="http://golearntocode.com/images/cards/<%= num5 %>_of_<%= suit5 %>.png" />
